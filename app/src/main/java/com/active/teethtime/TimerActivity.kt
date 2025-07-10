@@ -152,8 +152,8 @@ fun ToothbrushTimerScreen(modifier: Modifier = Modifier, onTimerFinished: () -> 
             val intent = Intent(context, MainActivity::class.java)
             AlertDialog(
                 onDismissRequest = { showDialog = false },
-                title = { Text("Cancel Timer") },
-                text = { Text("Are you sure you want to cancel the timer?") },
+                title = { Text("Anulowanie sesji") },
+                text = { Text("Czy na pewno chcesz anulować sesję?") },
                 confirmButton = {
                     TextButton(onClick = { onDestroy() }) {
                         Text("Yes")

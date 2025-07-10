@@ -54,6 +54,9 @@
     <string name="instr4">Szczotkuj powierzchnie żujące prawych zębów ruchem tam i z powrotem przez 20 sekund.</string>
     <string name="instr5">Szczotkuj wewnętrzne górne zęby przez 20 sekund.</string>
     <string name="instr6">Szczotkuj wewnętrzne dolne zęby przez 20 sekund.</string>
+    <string name="home_tab">Ekran główny</string>
+    <string name="calendar_tab">Passa</string>
+    <string name="help_tab">Porady</string>
 
 
 </resources>

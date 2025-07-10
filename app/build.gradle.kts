@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.active.teethtime"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.active.teethtime"
@@ -67,6 +67,8 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.gson)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
